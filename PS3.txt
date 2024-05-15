@@ -1,0 +1,29 @@
+import random
+eng_mark = {}
+
+students = ['Harsh', 'Aadi', 'Karunesh', 'Sam']
+for student in students:
+    eng_mark.update({student:random.randint(1, 100)})
+print(eng_mark)
+
+names = ["Harsh", "Aadi", "Karunesh", "Sam"]
+marks = [58, 99, 76, 85]
+
+lang_mark = dict(zip(names, marks))
+print(lang_mark)
+
+actual_marks = []
+actual_marks.append(eng_mark)
+actual_marks.append(lang_mark)
+print(actual_marks)
+
+totalMarks = []
+eng_mark = {'Harsh': 4, 'Aadi': 28, 'Karunesh': 26, 'Sam': 71}
+lang_mark = {'Harsh': 58, 'Aadi': 99, 'Karunesh': 76, 'Sam': 85}
+for i in range(min(len(eng_mark), len(lang_mark))):
+    print(totalMarks)
+
+
+
+
+

@@ -25,7 +25,19 @@ for marks in actual_marks:
 totalMarks.append(total_marks_dict)
 print(totalMarks)
 
-class_marks = {}
+class_marks1 = {}
+list_of_names_sub_tot = [("Harsh","Eng", "Lang", "Tot"), ("Aadi", "Eng", "Lang", "Tot"), ("Karunesh", "Eng", "Lang", "Tot"), ("Sam", "Eng", "Lang", "Tot") ]
+for i in list_of_names_sub_tot:
+    class_marks1.update({i : None})
+print(class_marks1)
+
+
+values = []
+values.append(eng_mark)
+values.append(lang_mark)
+values.append(totalMarks)
+    
+print(values)
 list_of_names_sub_tot = [("Harsh","Eng", "Lang", "Tot"), ("Aadi", "Eng", "Lang", "Tot"), ("Karunesh", "Eng", "Lang", "Tot"), ("Sam", "Eng", "Lang", "Tot") ]
 for i in list_of_names_sub_tot:
     class_marks.update({i : None})

@@ -38,7 +38,4 @@ values.append(lang_mark)
 values.append(totalMarks)
     
 print(values)
-list_of_names_sub_tot = [("Harsh","Eng", "Lang", "Tot"), ("Aadi", "Eng", "Lang", "Tot"), ("Karunesh", "Eng", "Lang", "Tot"), ("Sam", "Eng", "Lang", "Tot") ]
-for i in list_of_names_sub_tot:
-    class_marks.update({i : None})
-print(class_marks)
+

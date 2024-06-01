@@ -32,10 +32,5 @@ for i in list_of_names_sub_tot:
 print(class_marks1)
 
 
-values = []
-values.append(eng_mark)
-values.append(lang_mark)
-values.append(totalMarks)
     
-print(values)
 
